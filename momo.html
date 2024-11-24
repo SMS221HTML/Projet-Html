@@ -4,59 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>unisex.sn</title>
+    <link rel="stylesheet" href=" style.css">
+    <title>UNISEXE.SN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
+
 
 <body>
     <header>
         <nav>
             <ul>
                 <li>
-                    <a href="">Aceuil</a>
+                    <a href="#">Acceuil</a>
                 </li>
                 <li>
-                    <a href="">A propos</a>
+                    <a href="#">A propos</a>
                 </li>
                 <li>
-                    <a href="">travail</a>
+                    <a href="#">Travail</a>
                 </li>
                 <li>
-                    <a href="">contact</a>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
         </nav>
-    </header>
-    <section>
-
-        <h1>Unisex</h1>
-        <p>Vous voullez achete des sacs,des accessoires parfaits pour votre tenue de mariage,des parfums,des vetements etc
-            vennez
-            visite notre site,vous pouvez trouver ce qui vous convient avec des prix abordables </p>
-    </section>
-    <section>
-
-        <h2> Objectif du site</h2>
-        <p>notre objectif est de vous aider a acheter tous ce que vous voullez sans pour autant se deplacer
-            votre deux premiers livraisons seront gratuits</p>
-        <h2>Nos produits</h2>
-        <p>Nous avons:</p>
-        <ul>
-    
-            <li>Des sacs pour enfants et adultes</li>
-            <li>Des accesoir pour hommes/femme </li>
-            <li>Des chaussures</li>
-            <li>Et autres</li>
-        </ul>
-    </section>
-    <section>
-<h1>hello world</h1>
-        <p>POUR COMMANDER VEILLEZ REMPLIR LES FORMULAIRES CI DESOUS</p>
         <form>
-            <label for="name">Nom</label>
-            <input type="text" id="name" />
+            <input type="search" name="q" placeholder="recherche">
+        </form>
+    </header>
+    <!--selecteur descendant-->
+    <!--le selecteur descendand correspond a tout les elements-->
+    <section class="descendant-selector">
+        <!--direct link-->
+        <h1>UNISEXE</h1>
+        <style>
+            h1 {
+                text-align: center;
+            }
+        </style>
+
+        <p>Vous voulez acheter des sacs, des accessoires parfaits pour votre tenue de mariage, des parfums, des
+            vêtements…
+            Venez visiter notre site, vous pouvez trouver ce qui vous convient avec des prix abordables</p>
+        </div>
+    </section>
+    <section class="child-selector">
+        <!--.external link-->
+        <h2> OBJECTIF DU SITE</h2>
+        <p>Notre objectif est de vous aider à acheter tout ce que vous voulez sans pour autant vous déplacer
+            Vos deux premiers livraisons seront gratuites</p>
+        <h2>NOS PRODUIT</h2>
+        <p> nous avons:</p>
+        <ul>
+    </section>
+    <section class="adjacent-sibling-selector">
+        <li id="paragraph">Des sacs pour enfants et adultes</li>
+        <li id="paragraph">Des accessoires pour hommes/femmes </li>
+        <li id="paragraph">Des chaussures</li>
+        <li id="paragraph">Et d'autres</li>
+        </lu>
+        <p style="color: rgba(0, 0, 0, 0. 600);">POUR COMMANDER VEILLEZ REMPLIR LES FORMULAIRES CI DESOUS</p>
+        <form>
+            <label for="produit">Nom</label>
+            <input type="text" id="produit" />
             <br>
             <br>
-            <label for="">E-mail</label>
+            <label for="mail">E-mail</label>
             <input type="mail" id="mail" />
             <br>
             <br>
@@ -65,12 +83,15 @@
             <button type="submit">ENTRER</button>
         </form>
     </section>
+
     <h2>image</h2>
+
     <!--image-->
     <img src="téléchargement.jpeg" alt="image">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6AXZq8H1exQdVSmZhkfKRGoLX49MriV8ooA&s" alt="image">
     <img src="téléchargement (1).jpeg" alt="">
     <img src="téléchargement (2).jpeg" alt="">
+    <img src="téléchargement (4).jpeg" alt="">
     <br>
     <a
         href="https://www.ateliertuffery.com/collections/unisexe?srsltid=AfmBOorZaFi5yWofiT_zf33iELXhs9-9NZlDaEaOdAqJgL5VoE8ffiYE">www.unisex.fr</a>
@@ -82,9 +103,19 @@
     <!--video-->
     <video controls>
         <source src="video mp4" />
-        <footer>
-            creer par mouhamed
-            unisex.sn
+        <footer style="background-color: bisque;">
+            <div style="width: 1500px;">
+                <nav>
+                    <a style="float: left;" href="#">reseaux sociaux</a>
+                    <a style="float: right; color: bisque; text-decoration: none;" href="#">contact</a>
+                </nav>
+            </div>
+            <a style="color:blue; text-decoration: none;" href="https://www.instagram.com/hijab_modstyle/p/C1RSrq9Ii7j/"
+                target="_blank">instagram </a>
+            </a>
+        </footer>
+        creer par mouhamed
+        unisex.sn
         </footer>
 </body>
 
